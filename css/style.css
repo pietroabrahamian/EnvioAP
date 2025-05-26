@@ -3,3 +3,31 @@
     src: url(/fonte_work/Arboria-Book.ttf);
 }
 
+/* ------------ RESET ------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "workon", sans-serif;
+}
+
+/* ------------ HEADER ------------ */
+header {
+    width: 80vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+header figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+header figure span {
+    font-size: 0.9rem;
+}
+
