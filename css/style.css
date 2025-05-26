@@ -2,11 +2,12 @@
 
 /* ------------ HEADER ------------ */
 header {
-    width: 1167px;
+    width: 100vw;
+    max-width: 1300px;
     height: 10vh;
 
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
 }
 header figure {
@@ -22,7 +23,7 @@ header figure span {
 
 /* ------------ MAIN ------------ */
 main {
-    width: 100%vw;
+    width: 100vw;
     max-width: 1300px;
     height: 90vh;
 
@@ -67,14 +68,15 @@ main {
 }
 
 .content-button {
-    width: 400px;
+    width: 390px;
+    padding-right: 35px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .content a {
-    width: 186px;
+    width: 166px;
     height: 58px;
 
     display: flex;
@@ -84,7 +86,7 @@ main {
     color: black;
     border: 1px solid black;
     border-radius: 20px;
-    font-size: 18px;
+    font-size: 17px;
     transition: all 0.5s;
 }
 .content a:hover, .content a:active {

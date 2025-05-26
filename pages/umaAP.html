@@ -7,8 +7,52 @@
     <title>EnvioAP | Uma AP</title>
 </head>
 <body>
-    <header>
-        <a href="../index.html">sair</a>
-    </header>
+    <a href="../index.html">sair</a>
+
+    <main>
+        <section class="content">
+            <section class="header-content"> 
+                <span>EnvioAP</span>
+                <img src="../assets/img/workon-logo.png" alt="logo workon">
+             </section>
+                <form>
+                    <select name="empresa" id="empresa">
+                        <option value="empresa" disabled selected>Empresa</option>
+                        <option value="workon">WORKON PEOPLE</option>
+                        <option value="smarttrade">SMARTTRADE</option>
+                    </select>
+                    <select name="tipoAP" id="tipoAP">
+                        <option value="tipoap" disabled selected>Tipo da AP</option>
+                        <option value="1">Adiantamento</option>
+                        <option value="2">Prestação de Contas</option>
+                        <option value="3">Pagamento (Crédito em Conta)</option>
+                        <option value="4">Pagamento (Boleto)</option>
+                    </select>
+                    <div class="input-group">
+                        <label for="numAP">N° da AP</label>
+                        <input type="text" name="numAP" id="numAP">
+                    </div>
+                    <div class="input-group">
+                        <label for="nomeFornecedor">Nome do Fornecedor</label>
+                        <input type="text" name="nomeFornecedor" id="nomeFornecedor">
+                    </div>
+                    <div class="input-group">
+                        <label for="valorTotal">Valor Total</label>
+                        <input type="text" name="valorTotal" id="valorTotal">
+                    </div>
+                    <div class="input-group">
+                        <label for="competencia">Competência</label>
+                        <input type="date" name="competencia" id="competencia">
+                    </div>
+                    <div class="input-group">
+                        <input type="file" name="arquivoAP" id="arquivoAP">
+                    </div>
+                    <div class="input-group">
+                        <select name="comentario" id="comentario">
+                        </select>
+                    </div>
+                </form>
+        </section>
+    </main>
 </body>
 </html>
