@@ -21,7 +21,7 @@ header figure {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
+    gap: 1rem;
 }
 
 header figure span {
@@ -70,7 +70,7 @@ main {
     font-size: 32px;
 }
 .content-text p {
-    width: 365px;
+    width: 355px;
     font-size: 20px;
 }
 
