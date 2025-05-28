@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/variasAP.css">
     <title>EnvioAP | Varias AP's</title>
 </head>
 <body>
     <main>
+        <a href="../index.html">sair</a>
+        
         <section class="container">
             <section class="header-container"> 
                 <span>EnvioAP</span>
@@ -25,14 +28,14 @@
                             <li>Salve a planilha e importe aqui ao lado.</li>
                         </ol>
                     </section>
-                    <a href=""><img src="../assets/img/icon-excel-min.png" alt="Ícone do Excel">Baixar o modelo de Importação</a>    
+                    <a href=""><img src="../assets/img/icon-excel-max.svg" alt="Ícone do Excel">Baixar o modelo de Importação</a>    
                 </section>
                 <section class="import-excel">
                      <label class="hidden-label">Excel</label>
                     <label for="excel-import" class="excel-import">
-                        <img src="../assets/img/icon-excel-max.png" alt="Ícone do Excel" class="excel-icon">
-                        <span>Clique e suba sua AP</span>
-                        <input type="file" id="excel-import" accept="application/" hidden>
+                        <img src="../assets/img/icon-excel-max.svg" alt="Ícone do Excel" class="excel-icon">
+                        <span>Clique e importe seu excel</span>
+                        <input type="file" id="excel-import" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" hidden>
                     </label>
                 </section>
              </section>
