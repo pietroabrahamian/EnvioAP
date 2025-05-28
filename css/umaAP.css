@@ -113,3 +113,30 @@ form input, form select {
 .hidden-label {
     display: none;
 }
+
+@media screen and (min-width: 1367px) {
+    .content {
+        width: 70vw;
+        height: 80vh;
+    }
+    form input, form select {
+        height: 55px;
+        font-size: 1.1rem;
+    }
+    label {
+        font-size: 1.1rem;
+    }
+    .pdf-icon {
+        width: 70px;
+        height: 70px;
+    }
+    .pdf-upload span {
+        font-size: 1.2rem;
+    }
+    .header-content span {
+    font-size: 1.2rem;
+    }
+    .header-content img {
+        width: 70px;
+    }
+}

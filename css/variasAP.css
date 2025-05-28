@@ -134,3 +134,38 @@ main {
 .hidden-label {
     display: none;
 }
+
+@media screen and (min-width: 1367px) {
+    .container {
+        width: 70vw;
+        height: 80vh;
+    }
+    .tutorial-text h1 {
+        font-size: 2rem;
+    }
+    .tutorial-text ol li {
+        font-size: 1.4rem;
+        margin: 1rem;
+    }
+    .tutorial a {
+        font-size: 1.3rem;
+        padding: 10px 15px;
+        gap: 0.5rem;
+    }
+    .tutorial a img{
+        width: 40px;
+    }
+    .excel-icon {
+        width: 200px;
+        height: 200px;
+    }
+    .excel-import span {
+        font-size: 1.5rem;
+    }
+    .header-container span {
+    font-size: 1.2rem;
+    }
+    .header-container img {
+        width: 70px;
+    }
+}
