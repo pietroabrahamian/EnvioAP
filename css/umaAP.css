@@ -1,10 +1,11 @@
 @import url(./reset.css);
 
-
+/* body */
 body {
     background-color: #E8E8E8;
 }
 
+/* general configuration for link */
 a {
     text-decoration: none;
     color: black;
@@ -15,6 +16,7 @@ a {
     right: 71px;
 }
 
+/* main */
 main {
     width: 100vw;
     height: 100vh;
@@ -23,9 +25,10 @@ main {
     justify-content: center;
     align-items: center;
 }
+/* main > content */
 .content {
     width: 836px;
-    height: 527px;
+    height: 560px;
 
     display: flex;
     flex-direction: column;
